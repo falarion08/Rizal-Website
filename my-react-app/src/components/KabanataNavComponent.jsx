@@ -14,8 +14,8 @@ function KabanataNav({kabanataNavToggle,setKabanataNavToggle,k4_toggle, set_k4_t
     return(
     <>
         <div className="p-5 size-full overflow-y-auto">
-            <h1 className=" text-[#FFF8ED] text-center font-bold text-6xl w-3/4 m-auto">Noli at Fili: Rizal Laban sa Abuso sa Relihiyon</h1>
-            <div className=" size-full flex justify-center items-center gap-24 flex-wrap overflow-auto">
+            <h1 className=" text-[#FFF8ED] text-center font-bold text-6xl w-3/4 m-auto my-4">Noli at Fili: Rizal Laban sa Abuso sa Relihiyon</h1>
+            <div className=" size-full flex justify-center items-center gap-24 flex-wrap overflow-auto my-32">
                 {
                     cardContent.map((content,key) => {
 

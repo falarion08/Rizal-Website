@@ -10,7 +10,7 @@ function K4Section(props){
     return (
 
         <>
-        <article className="text-slate-200 border relative">
+        <article className="text-slate-200 border relative max-h-screen overflow-y-auto">
 
         <button className="sticky top-5 left-4 reading-list-selection-button" onClick={returnSelection}>Back</button>
             <h1 className="p-10 text-5xl font-extrabold stroke-black text-center">Kabanata 4: Erehe at Filibustero</h1>

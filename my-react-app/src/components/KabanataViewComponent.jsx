@@ -13,7 +13,7 @@ function KabanataView(){
 
     return(
         <>
-        <div className=" h-screen overflow-y-auto bg-[#B093A8]">
+        <div className="bg-[#B093A8]">
 
             {!kabanataNavToggle ? <KabanataNav 
             kabanataNavToggle = {kabanataNavToggle} setKabanataNavToggle = {setKabanataNavToggle}
